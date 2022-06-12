@@ -257,4 +257,24 @@ a {
 .price-btn:focus {
 	background-color: var(--hoover-bg-color);
 }
+
+/* Секция Benefits */
+
+.benefits-price {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.36;
+	letter-spacing: 0.05em;
+}
+
+.benefits-synbol {
+	font-size: 16px;
+	line-height: 1.38;
+
+	color: var(--hover-color);
+}
+
+.benefits-text {
+	font-size: 11px;
+	line-height: 1.37;
 }
