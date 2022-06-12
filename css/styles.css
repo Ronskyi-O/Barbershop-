@@ -278,3 +278,30 @@ a {
 	font-size: 11px;
 	line-height: 1.37;
 }
+
+/* Секция Team */
+
+.team {
+	background-color: var(--secondary-bg-color);
+}
+
+.team-name {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.39;
+	letter-spacing: 0.02em;
+}
+
+.team-position {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.36;
+	letter-spacing: 0.02em;
+
+	color: #ff6c00;
+}
+
+.team-icon:hover,
+.team-icon:focus {
+	color: var(--hover-color);
+}
