@@ -136,3 +136,23 @@ a {
 
 	color: var(--main-logo-color);
 }
+
+.slider-prev {
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+
+	color: rgba(157, 164, 189, 0.6);
+	background-color: transparent;
+}
+
+.slider-next {
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+
+	color: var(--main-logo-color);
+	background-color: transparent;
+}
+
+/* Section About */
