@@ -45,6 +45,18 @@ a {
 	color: rgba(157, 164, 189, 0.6);
 }
 
+.uppertittle-mode-light {
+	color: var(--main-color);
+}
+
+.tittle {
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+}
+
 .text {
 	font-weight: 400;
 	font-size: 18px;
@@ -55,6 +67,10 @@ a {
 
 .text-mode-dark {
 	color: #9da4bd;
+}
+
+.text-mode-light {
+	color: var(--secondary-color);
 }
 
 /* Header */
@@ -89,6 +105,11 @@ a {
 }
 
 .header-btn {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.34;
 	letter-spacing: 0.09em;
 	text-transform: uppercase;
 
@@ -138,21 +159,61 @@ a {
 }
 
 .slider-prev {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 600;
 	font-size: 11px;
 	line-height: 1.36;
 	letter-spacing: 0.1em;
 
 	color: rgba(157, 164, 189, 0.6);
 	background-color: transparent;
+
+	cursor: pointer;
 }
 
 .slider-next {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 600;
 	font-size: 11px;
 	line-height: 1.36;
 	letter-spacing: 0.1em;
 
 	color: var(--main-logo-color);
 	background-color: transparent;
+
+	cursor: pointer;
 }
 
 /* Section About */
+
+.about-text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.86;
+	letter-spacing: 0.02em;
+
+	color: var(--secondary-color);
+}
+
+.about-btn {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.34;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+
+	color: var(--main-color);
+	background-color: transparent;
+
+	cursor: pointer;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+	color: var(--main-logo-color);
+	background-color: var(--hoover-bg-color);
+}
