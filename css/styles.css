@@ -373,11 +373,39 @@ a {
 	color: var(--main-logo-color);
 }
 
-.workhours .time {
+.contacts .time {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.67;
 	letter-spacing: 0.02em;
 
 	color: var(--add-color);
+}
+
+/* Footer */
+
+.footer {
+	background-color: var(--secondary-bg-color);
+}
+
+.footer-copyright {
+	font-size: 11px;
+	line-height: 1.37;
+	letter-spacing: 0.2em;
+
+	color: var(--add-color);
+}
+
+.footer-link {
+	font-style: normal;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.2em;
+
+	color: var(--main-color);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+	color: var(--hover-color);
 }
