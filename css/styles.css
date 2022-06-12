@@ -307,3 +307,77 @@ a {
 }
 
 /* Секция Portfolio */
+
+/* Секция Contacts */
+
+.contacts {
+	background-color: var(--add-bg-color);
+}
+
+.contacts .appointment {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+
+	color: var(--main-logo-color);
+
+	opacity: 0.6;
+}
+
+.contacts .btn {
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.34;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+
+	color: var(--main-logo-color);
+	background-color: transparent;
+
+	cursor: pointer;
+}
+
+.contacts .btn:hover,
+.contacts .btn:focus {
+	background-color: var(--hoover-bg-color);
+}
+
+.contacts .address,
+.tel,
+.mail {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+
+	color: var(--add-color);
+}
+
+.contacts .mail {
+	text-decoration: underline;
+}
+
+.contacts .workhours {
+	font-size: 11px;
+	line-height: 1.37;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: var(--main-logo-color);
+}
+
+.workhours .time {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+
+	color: var(--add-color);
+}
