@@ -11,33 +11,39 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- Хедер -->
 		<header class="header">
-			<a class="header-logo" href="index.html">
-				<img src="./images/header/Logo.svg" alt="логотип барбершоп" width="69" height="56" />
-			</a>
-			<nav class="header-nav">
-				<ul>
-					<li>
-						<a class="header-nav-link" href="#About">О нас</a>
-					</li>
-					<li>
-						<a class="header-nav-link" href="#Price">Услуги и цены</a>
-					</li>
-					<li>
-						<a class="header-nav-link" href="#Team">Мастера</a>
-					</li>
-					<li>
-						<a class="header-nav-link" href="#Contacts">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<div>
-				<a class="header-tell" href="tel:+380441111111">+38 044 111 11 11</a>
-				<button class="header-btn" type="button">онлайн-запись</button>
+			<div class="container">
+				<a class="header-logo" href="index.html">
+					<img src="./images/header/Logo.svg" alt="логотип барбершоп" width="69" height="56" />
+				</a>
+				<nav class="header-nav">
+					<ul class="header-list">
+						<li class="header-list-item">
+							<a class="header-nav-link" href="#About">О нас</a>
+						</li>
+						<li class="header-list-item">
+							<a class="header-nav-link" href="#Price">Услуги и цены</a>
+						</li>
+						<li class="header-list-item">
+							<a class="header-nav-link" href="#Team">Мастера</a>
+						</li>
+						<li class="header-list-item">
+							<a class="header-nav-link" href="#Contacts">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-contacts">
+					<a class="header-tell" href="tel:+380441111111">+38 044 111 11 11</a>
+					<button class="header-btn" type="button">онлайн-запись</button>
+				</div>
 			</div>
 		</header>
 
@@ -148,6 +154,7 @@
 
 			<!-- Секция Team -->
 			<section class="team">
+				<div class="conteinar"></div>
 				<p class="uppertittle uppertittle-mode-ligt" id="Team">для настоящих ценителей атмосферы</p>
 				<h2 class="tittle">Наши мастера</h2>
 				<ul>
