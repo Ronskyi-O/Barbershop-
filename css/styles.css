@@ -57,6 +57,11 @@ a {
 }
 
 .uppertittle {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+
+
 	font-size: 11px;
 	line-height: 1.36;
 	letter-spacing: 0.1em;
@@ -71,7 +76,20 @@ a {
 	color: var(--main-color);
 }
 
+.uppertittle::before {
+	content: "";
+
+	margin-right: 20px;
+	width: 60px;
+	height: 1px;
+
+	background-color: var(--main-color);
+
+}
+
 .tittle {
+	margin-bottom: 20px;
+
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 42px;
@@ -84,6 +102,8 @@ a {
 }
 
 .text {
+	margin-bottom: 20px;
+
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.67;
@@ -252,7 +272,29 @@ a {
 
 /* Section About */
 
+.about {
+	padding: 130px 0;
+}
+
+.about .container {
+	display: flex;
+	align-items: flex-start
+}
+
+.about-photos {
+	display: flex;
+	justify-content: space-between;
+	min-width: 570px;
+	margin-right: 64px;
+}
+
+.about-discription {
+	max-width: 500px;
+}
+
 .about-text {
+	margin-bottom: 40px;
+
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.86;
@@ -262,6 +304,8 @@ a {
 }
 
 .about-btn {
+	padding: 12px 20px;
+
 	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 600;
@@ -273,6 +317,8 @@ a {
 	color: var(--main-color);
 	background-color: transparent;
 
+	border: 1px solid var(--hover-color);
+    border-radius: 25px;
 	cursor: pointer;
 }
 
