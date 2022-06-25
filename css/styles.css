@@ -418,6 +418,10 @@ margin-bottom: 20px;
 
 /* Секция Benefits */
 
+.benefits {
+	padding: 130px 0;
+}
+
 .benefits-price {
 	font-weight: 700;
 	font-size: 42px;
@@ -440,10 +444,29 @@ margin-bottom: 20px;
 /* Секция Team */
 
 .team {
+	padding: 130px 0;
 	background-color: var(--secondary-bg-color);
 }
 
+.team .tittle {
+	margin-bottom: 44px;
+}
+
+.team-list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+
+}
+
+.team-photo {
+	margin-bottom: 30px;
+}
+
 .team-name {
+	margin-bottom: 8px;
+	text-align: center;
+
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.39;
@@ -451,6 +474,9 @@ margin-bottom: 20px;
 }
 
 .team-position {
+	margin-bottom: 30px;
+	text-align: center;
+
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.36;
