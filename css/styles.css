@@ -485,8 +485,31 @@ margin-bottom: 20px;
 	color: #ff6c00;
 }
 
-.team-icon:hover,
-.team-icon:focus {
+.team-networks-list {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+}
+
+.team-network {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+
+	color:var(--main-color);
+	background-color: var(--main-bg-color);
+
+	border-radius: 50%;
+}
+
+.team-network-icon {
+	fill: currentColor;
+}
+
+.team-network:hover,
+.team-network:focus {
 	color: var(--hover-color);
 }
 
