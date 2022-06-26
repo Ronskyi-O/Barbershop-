@@ -355,7 +355,6 @@ a {
 	padding: 30px 40px;
 }
 
-
 .price-list-item:first-child {
 	background-image: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
 }
@@ -366,7 +365,7 @@ a {
 
 .price-inner-list-item {
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-between;
 	align-items: baseline;
 	gap: 6px;
 }
@@ -381,7 +380,7 @@ a {
 }
 
 .price-inner-list-item:not(:last-child) {
-margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .price-disc {
@@ -394,7 +393,6 @@ margin-bottom: 20px;
 	margin-right: auto;
 	padding: 12px 20px;
 
-	
 	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 600;
@@ -456,7 +454,6 @@ margin-bottom: 20px;
 	display: flex;
 	justify-content: center;
 	gap: 30px;
-
 }
 
 .team-photo {
@@ -498,7 +495,7 @@ margin-bottom: 20px;
 	width: 44px;
 	height: 44px;
 
-	color:var(--main-color);
+	color: var(--main-color);
 	background-color: var(--main-bg-color);
 
 	border-radius: 50%;
@@ -539,10 +536,27 @@ margin-bottom: 20px;
 /* Секция Contacts */
 
 .contacts {
+	max-width: 1280px;
+	padding: 130px 0;
+	margin-right: auto;
+	margin-left: auto;
+
 	background-color: var(--add-bg-color);
+	background-image: url(../images/contacts/contacts-bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top 50% left calc(50% + 312px);
+}
+
+.contacts .container {
+	display: flex;
+	align-items: flex-start;
 }
 
 .contacts .appointment {
+	margin-right: 140px;
+	margin-bottom: 44px;
+
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: 700;
@@ -556,6 +570,9 @@ margin-bottom: 20px;
 }
 
 .contacts .btn {
+	display: block;
+	padding: 12px 20px;
+
 	font-family: var(--main-font);
 	font-style: normal;
 	font-weight: 600;
@@ -564,15 +581,27 @@ margin-bottom: 20px;
 	letter-spacing: 0.09em;
 	text-transform: uppercase;
 
+	border: 1px solid var(--hover-color);
+	border-radius: 25px;
+	cursor: pointer;
+
 	color: var(--main-logo-color);
 	background-color: transparent;
 
 	cursor: pointer;
 }
-
 .contacts .btn:hover,
 .contacts .btn:focus {
 	background-color: var(--hoover-bg-color);
+}
+
+.contacts .tittle {
+	margin-bottom: 40px;
+}
+
+.contacts-address {
+	width: 270px;
+	margin-bottom: 70px;
 }
 
 .contacts .address,
@@ -593,6 +622,8 @@ margin-bottom: 20px;
 }
 
 .contacts .workhours {
+margin-bottom: 20px;
+
 	font-size: 11px;
 	line-height: 1.37;
 	letter-spacing: 0.1em;
