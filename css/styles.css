@@ -515,6 +515,27 @@ margin-bottom: 20px;
 
 /* Секция Portfolio */
 
+.portfolio {
+	padding: 130px 0;
+}
+
+.uppertittle {
+	margin-bottom: 44px;
+}
+
+.portfolio-album {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: calc(-1 * 30px / 2);
+}
+
+.portfolio-img {
+	display: block;
+	flex-basis: calc((100% - 30px) / 3);
+	margin: calc(30px / 2);
+}
+
 /* Секция Contacts */
 
 .contacts {
