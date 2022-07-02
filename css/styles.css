@@ -316,7 +316,7 @@ a {
 	border-radius: 25px;
 	cursor: pointer;
 
-	transition-property: color background-color;
+	transition-property: color, background-color;
 	transition-duration: 500ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -411,6 +411,10 @@ a {
 	border: 1px solid var(--hover-color);
 	border-radius: 25px;
 	cursor: pointer;
+
+	transition-property: background-color;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-btn:hover,
