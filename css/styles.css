@@ -411,10 +411,6 @@ a {
 	border: 1px solid var(--hover-color);
 	border-radius: 25px;
 	cursor: pointer;
-
-	transition-property: background-color;
-	transition-duration: 500ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-btn:hover,
@@ -425,17 +421,62 @@ a {
 /* Секция Benefits */
 
 .benefits {
-	padding: 130px 0;
+	padding-top: 121px;
+	padding-bottom: 130px;
 }
 
-.benefits-price {
+.benefits > .container {
+	display: flex;
+}
+
+.benefits-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 100px;
+}
+
+.benefits-item {
+	max-width: 170px;
+	max-height: 133px;
+
+	background-color: var(--secondary-bg-color);
+}
+
+.benefits-item:nth-child(odd) {
+	margin-right: 30px;
+}
+
+.benefits-item:nth-child(2) {
+	margin-top: 35px;
+}
+
+.benefits-item:nth-child(4) {
+	margin-top: 30px;
+}
+
+.benefits-item-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 24px;
+}
+
+.benefits-item-wrap.special {
+	padding: 20px 20px;
+}
+
+.benefits-number {
+	margin-right: 2px;
+	margin-bottom: 6px;
+
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 1.36;
 	letter-spacing: 0.05em;
 }
 
-.benefits-synbol {
+.benefits-symbol {
 	font-size: 16px;
 	line-height: 1.38;
 
@@ -443,8 +484,24 @@ a {
 }
 
 .benefits-text {
+	text-align: center;
+
 	font-size: 11px;
 	line-height: 1.37;
+}
+
+.benefits-desc {
+	padding-left: 130px;
+	padding-right: 70px;
+}
+
+.benefits .uppertittle {
+	padding-top: 9px;
+	margin-bottom: 20px;
+}
+
+.benefits-desc > .text {
+	margin-bottom: 0;
 }
 
 /* Секция Team */
