@@ -411,6 +411,10 @@ a {
 	border: 1px solid var(--hover-color);
 	border-radius: 25px;
 	cursor: pointer;
+
+	transition-property: background-color;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-btn:hover,
@@ -564,6 +568,10 @@ a {
 	background-color: var(--main-bg-color);
 
 	border-radius: 50%;
+
+	transition-property: color;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-network-icon {
@@ -654,6 +662,10 @@ a {
 	background-color: transparent;
 
 	cursor: pointer;
+
+	transition-property: background-color;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts .btn:hover,
 .contacts .btn:focus {
@@ -727,6 +739,10 @@ a {
 	letter-spacing: 0.2em;
 
 	color: var(--main-color);
+
+	transition-property: color;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
