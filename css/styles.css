@@ -315,6 +315,10 @@ a {
 	border: 1px solid var(--hover-color);
 	border-radius: 25px;
 	cursor: pointer;
+
+	transition-property: color background-color;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-btn:hover,
@@ -622,7 +626,7 @@ a {
 }
 
 .contacts .workhours {
-margin-bottom: 20px;
+	margin-bottom: 20px;
 
 	font-size: 11px;
 	line-height: 1.37;
