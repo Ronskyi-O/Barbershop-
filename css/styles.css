@@ -684,6 +684,10 @@ a {
 .contacts .address,
 .tel,
 .mail {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+
 	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;
@@ -694,11 +698,29 @@ a {
 	color: var(--add-color);
 }
 
+.contacts .address,
+.tel {
+	margin-bottom: 20px;
+}
+
 .contacts .mail {
 	text-decoration: underline;
 }
 
+.contacts .wrap {
+	display: flex;
+}
+
+.icon-contacts {
+	margin-right: 16px;
+
+	stroke: var(--add-color);
+	fill-opacity: 0;
+}
+
 .contacts .workhours {
+	display: flex;
+	align-items: center;
 	margin-bottom: 20px;
 
 	font-size: 11px;
@@ -707,6 +729,15 @@ a {
 	text-transform: uppercase;
 
 	color: var(--main-logo-color);
+}
+
+.contacts .workhours::before {
+	content: "";
+	margin-right: 20px;
+	width: 60px;
+	height: 1px;
+
+	background-color: rgba(157, 164, 189, 0.4);
 }
 
 .contacts .time {
