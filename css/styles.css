@@ -752,7 +752,13 @@ a {
 /* Footer */
 
 .footer {
+	padding: 56px 0;
 	background-color: var(--secondary-bg-color);
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
 }
 
 .footer-copyright {
@@ -761,6 +767,12 @@ a {
 	letter-spacing: 0.2em;
 
 	color: var(--add-color);
+}
+
+.footer-list {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
 }
 
 .footer-link {
@@ -774,6 +786,19 @@ a {
 	transition-property: color;
 	transition-duration: 500ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:first-child {
+	margin-right: 40px;
+}
+
+.footer-list::before {
+	content: "";
+	margin-right: 40px;
+	width: 60px;
+	height: 1px;
+
+	background-color: var(--main-color);
 }
 
 .footer-link:hover,
